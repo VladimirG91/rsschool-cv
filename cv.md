@@ -30,13 +30,17 @@
   - _String_
   - _Character to look for_
 
-```const hasChar = (str, char) => {
-       let i = 0; while (i < str.length) {
-          if (str[i] === char) {
-             return true;
-             } i += 1;
-             } return false;
-             };
-    console.log(hasChar('Vladimir', 'V'));
+```
+const hasChar = (str, symbol) => {
+  let i = 0;
+  while (i < str.length){
+  if (str[i] === symbol){
+    return true;
+  }
+  i += 1;
+  }
+    return false;
+  };
+console.log(hasChar('Vladimir', 'V'));
 
 ```
