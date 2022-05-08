@@ -22,3 +22,21 @@
 
 - **English:** A2
 - **Russian:** Native speaker
+
+## Code example:
+
+- Write a function, hasChar(), checking whether a string contains a given character (case-sensitive). The function takes two parameters:
+
+  - _String_
+  - _Character to look for_
+
+```const hasChar = (str, char) => {
+       let i = 0; while (i < str.length) {
+          if (str[i] === char) {
+             return true;
+             } i += 1;
+             } return false;
+             };
+    console.log(hasChar('Vladimir', 'V'));
+
+```
