@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
     <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <header></header>
     <main class="main"></main>
     <footer></footer>
     <h1>Vladimir Glazkov</h1>
-    <img src="/photo.jpg" alt="my photo" class="myPhoto">
+    <img src="/photo.jpg" alt="my photo" class="myPhoto" />
+    <h2>About me:</h2>
+    <p>I want to further my knowledge in JavaScript =)</p>
     <h2>Contact information</h2>
     <ul>
       <li>Location: Petropavlovsk, Kazakhstan</li>
@@ -60,19 +62,24 @@
     </ul>
 
     <h2>Code example:</h2>
-    <p>Write a function, hasChar(), checking whether a string contains a given character (case-sensitive). <br>
-       The function takes two parameters: string, character to look for </p>
-    <code>
-      const hasChar = (str, char) => {
-        let i = 0;
-        while (i < str.length){
-        if (str[i] === char){
-          return true;
-        }
-        i += 1;
-        }
-          return false;
-        };
-    </code>
+    <p>
+      Write a function, hasChar(), checking whether a string contains a given
+      character (case-sensitive). <br />
+      The function takes two parameters: string, character to look for
+    </p>
+    <pre>
+         <code>
+        const hasChar = (str, char) => {
+          let i = 0;
+          while (i < str.length){
+          if (str[i] === char){
+            return true;
+          }
+          i += 1;
+          }
+            return false;
+          };
+      </code>
+       </pre>
   </body>
 </html>
