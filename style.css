@@ -11,8 +11,8 @@
       format('woff2'),
     /* Super Modern Browsers */
       url('./fonts/merriweather-sans-v21-latin-regular.woff') format('woff'),
-    /* Modern Browsers */
-      url('./fonts/merriweather-sans-v21-latin-regular.ttf') format('truetype'),
+    /* Modern Browsers */ url('./fonts/merriweather-sans-v21-latin-regular.ttf')
+      format('truetype'),
     /* Safari, Android, iOS */
       url('./fonts/merriweather-sans-v21-latin-regular.svg#MerriweatherSans')
       format('svg'); /* Legacy iOS */
@@ -202,7 +202,3 @@ h2 {
   margin: 0;
   font-weight: 300;
 }
-
-/* .right-main-container-about {
-  flex: 1 0 auto;
-} */
