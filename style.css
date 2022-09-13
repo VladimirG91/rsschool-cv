@@ -55,3 +55,150 @@
       url('./fonts/merriweather-sans-v21-latin-italic.svg#MerriweatherSans')
       format('svg'); /* Legacy iOS */
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #e2ddde;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Merriweather Sans', 'sans-serif';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #e2ddde;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: #28292f;
+  box-shadow: 0 5px 30px rgb(0, 0, 0);
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.container {
+  display: flex;
+  max-width: 1440px;
+  justify-content: space-between;
+}
+
+.main-photo {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 3px 20px rgba(228, 227, 227, 0.8);
+  transition: 1s;
+}
+
+.main-photo:hover {
+  box-shadow: 0 3px 30px rgba(236, 7, 7, 0.8);
+}
+
+.footer-img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(228, 227, 227, 0.815);
+}
+
+.footer-img-right {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 80px;
+}
+
+.nav-link {
+  transition: 1s;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: #a50000;
+
+  opacity: 90%;
+}
+.header-logo:hover {
+  transition: 2s;
+  opacity: 50%;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+a {
+  font-family: 'Merriweather Sans', 'sans-serif';
+  font-size: 20px;
+  color: #e2ddde;
+  text-decoration: none;
+}
+
+.left-main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-main-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.left-main-container-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-main-container-bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: lighter;
+}
+h2 {
+  margin: 0;
+  font-weight: 300;
+}
