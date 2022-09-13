@@ -202,3 +202,8 @@ h2 {
   margin: 0;
   font-weight: 300;
 }
+
+a:hover {
+  transition: all ease 0.5s;
+  color: #a50000;
+}
