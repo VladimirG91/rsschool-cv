@@ -1,77 +1,77 @@
 /* andika-regular - cyrillic */
 @font-face {
-  font-family: "Andika";
+  font-family: 'Andika';
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/andika-v22-cyrillic-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("./fonts/andika-v22-cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("./fonts/andika-v22-cyrillic-regular.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */ url("./fonts/andika-v22-cyrillic-regular.woff")
-      format("woff"),
-    /* Modern Browsers */ url("./fonts/andika-v22-cyrillic-regular.ttf")
-      format("truetype"),
+  src: url('./fonts/andika-v22-cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./fonts/andika-v22-cyrillic-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./fonts/andika-v22-cyrillic-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */ url('./fonts/andika-v22-cyrillic-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('./fonts/andika-v22-cyrillic-regular.ttf')
+      format('truetype'),
     /* Safari, Android, iOS */
-      url("./fonts/andika-v22-cyrillic-regular.svg#Andika") format("svg"); /* Legacy iOS */
+      url('./fonts/andika-v22-cyrillic-regular.svg#Andika') format('svg'); /* Legacy iOS */
 }
 /* merriweather-sans-regular - latin */
 @font-face {
-  font-family: "Merriweather Sans";
+  font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/merriweather-sans-v21-latin-regular.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("./fonts/merriweather-sans-v21-latin-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("./fonts/merriweather-sans-v21-latin-regular.woff2")
-      format("woff2"),
+  src: url('./fonts/merriweather-sans-v21-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./fonts/merriweather-sans-v21-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./fonts/merriweather-sans-v21-latin-regular.woff2')
+      format('woff2'),
     /* Super Modern Browsers */
-      url("./fonts/merriweather-sans-v21-latin-regular.woff") format("woff"),
-    /* Modern Browsers */ url("./fonts/merriweather-sans-v21-latin-regular.ttf")
-      format("truetype"),
+      url('./fonts/merriweather-sans-v21-latin-regular.woff') format('woff'),
+    /* Modern Browsers */ url('./fonts/merriweather-sans-v21-latin-regular.ttf')
+      format('truetype'),
     /* Safari, Android, iOS */
-      url("./fonts/merriweather-sans-v21-latin-regular.svg#MerriweatherSans")
-      format("svg"); /* Legacy iOS */
+      url('./fonts/merriweather-sans-v21-latin-regular.svg#MerriweatherSans')
+      format('svg'); /* Legacy iOS */
 }
 /* merriweather-sans-700 - latin */
 @font-face {
-  font-family: "Merriweather Sans";
+  font-family: 'Merriweather Sans';
   font-style: normal;
   font-weight: 700;
-  src: url("./fonts/merriweather-sans-v21-latin-700.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("./fonts/merriweather-sans-v21-latin-700.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("./fonts/merriweather-sans-v21-latin-700.woff2")
-      format("woff2"),
+  src: url('./fonts/merriweather-sans-v21-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./fonts/merriweather-sans-v21-latin-700.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./fonts/merriweather-sans-v21-latin-700.woff2')
+      format('woff2'),
     /* Super Modern Browsers */
-      url("./fonts/merriweather-sans-v21-latin-700.woff") format("woff"),
-    /* Modern Browsers */ url("./fonts/merriweather-sans-v21-latin-700.ttf")
-      format("truetype"),
+      url('./fonts/merriweather-sans-v21-latin-700.woff') format('woff'),
+    /* Modern Browsers */ url('./fonts/merriweather-sans-v21-latin-700.ttf')
+      format('truetype'),
     /* Safari, Android, iOS */
-      url("./fonts/merriweather-sans-v21-latin-700.svg#MerriweatherSans")
-      format("svg"); /* Legacy iOS */
+      url('./fonts/merriweather-sans-v21-latin-700.svg#MerriweatherSans')
+      format('svg'); /* Legacy iOS */
 }
 /* merriweather-sans-italic - latin */
 @font-face {
-  font-family: "Merriweather Sans";
+  font-family: 'Merriweather Sans';
   font-style: italic;
   font-weight: 400;
-  src: url("./fonts/merriweather-sans-v21-latin-italic.eot"); /* IE9 Compat Modes */
-  src: local(""),
-    url("./fonts/merriweather-sans-v21-latin-italic.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */ url("./fonts/merriweather-sans-v21-latin-italic.woff2")
-      format("woff2"),
+  src: url('./fonts/merriweather-sans-v21-latin-italic.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./fonts/merriweather-sans-v21-latin-italic.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('./fonts/merriweather-sans-v21-latin-italic.woff2')
+      format('woff2'),
     /* Super Modern Browsers */
-      url("./fonts/merriweather-sans-v21-latin-italic.woff") format("woff"),
-    /* Modern Browsers */ url("./fonts/merriweather-sans-v21-latin-italic.ttf")
-      format("truetype"),
+      url('./fonts/merriweather-sans-v21-latin-italic.woff') format('woff'),
+    /* Modern Browsers */ url('./fonts/merriweather-sans-v21-latin-italic.ttf')
+      format('truetype'),
     /* Safari, Android, iOS */
-      url("./fonts/merriweather-sans-v21-latin-italic.svg#MerriweatherSans")
-      format("svg"); /* Legacy iOS */
+      url('./fonts/merriweather-sans-v21-latin-italic.svg#MerriweatherSans')
+      format('svg'); /* Legacy iOS */
 }
 
 * {
@@ -79,28 +79,19 @@
 }
 
 html {
+  box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #e2ddde;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  font-family: "Merriweather Sans", "sans-serif";
+  font-family: 'Merriweather Sans', 'sans-serif';
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
   color: #e2ddde;
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0 30px;
-  background-color: #28292f;
-  box-shadow: 0 5px 30px rgb(0, 0, 0);
-}
-
-.main {
-  flex: 1 0 auto;
+  background-color: #28292f;;
 }
 
 .container {
@@ -135,27 +126,15 @@ body {
   height: 50px;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.header {
-  display: flex;
-  align-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
 .nav-list {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
   column-gap: 45px;
+  flex-direction: row;
+  white-space: nowrap;
 }
 
 .nav-link {
@@ -179,7 +158,7 @@ body {
 }
 
 a {
-  font-family: "Merriweather Sans", "sans-serif";
+  font-family: 'Merriweather Sans', 'sans-serif';
   font-size: 20px;
   color: #e2ddde;
   text-decoration: none;
@@ -190,18 +169,13 @@ a {
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
 }
 .right-main-container-about p {
-  font-family: "Andika";
+  font-family: 'Andika';
   font-size: 24px;
 }
 
-.right-main-container {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
 .left-main-container-top {
   display: flex;
   flex-direction: column;
@@ -212,6 +186,10 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.main {
+  display: flex;
 }
 
 h1 {
@@ -225,4 +203,71 @@ h2 {
 a:hover {
   transition: all ease 0.5s;
   color: #a50000;
+}
+
+.wrapper {
+  max-width: 1440px;
+}
+.header_nav {
+  display: flex;
+  column-gap: 100px;
+  align-items: center;
+}
+.main_container {
+  display: flex;
+  column-gap: 10px;
+}
+
+
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .header_nav {
+    column-gap: 0px;
+  }
+
+  .right-main-container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    column-gap: 10px;
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .main_container {
+    display: block;
+  }
+  .left-main-container {
+    flex-direction: row;
+  }
+  .right-main-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  a {
+    font-size: 10px;
+  }
+
+  .left-main-container {
+    flex-direction: column;
+  }
+  
+  .right-main-container-about p {
+    font-family: 'Andika';
+    font-size: 18px;
+}
 }
