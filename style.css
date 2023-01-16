@@ -207,6 +207,7 @@ a:hover {
 
 .wrapper {
   max-width: 1440px;
+  margin: 0 auto;
 }
 .header_nav {
   display: flex;
@@ -238,6 +239,10 @@ a:hover {
   .logo {
     display: none;
   }
+
+  ul {
+    padding: 0;
+  }
   .nav-list {
     display: flex;
     justify-content: space-evenly;
@@ -257,9 +262,9 @@ a:hover {
     width: 100%;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .left-main-container {
